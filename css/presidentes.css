@@ -12,31 +12,57 @@ body {
     width: 200px;
 }
 
+ul, li{
+    padding: 5px;
+}
+
 .info{
     color: white;
+    font-size: 15pt;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
+
 
 .preto{
     color:black;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    font-family: sans-serif
 }
 
-.amarelo{
-background-color: yellow;
-color: white
+
+#amarelo{
+background-color: #FACC2E;
+color: white;
+letter-spacing: 1px;
 }
 
-.verde{
-background-color: green;
-color: white
+#verde{
+background-color: #00FF40;
+color: white;
+letter-spacing: 1px;
 }
 
-.branco{
+
+.h1branco{
+color: black;
+font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 0 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+#branco{
 background-color: white;
-color: white
+color: white;
+letter-spacing: 1px;
 }
 
-.azul{
-    background-color: blue;
+#azul{
+background-color: #0040FF;
+letter-spacing: 1px;
 }
 
 
