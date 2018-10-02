@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    
+    #Alckmin{
+        width: 300px;
+        height: 370px;
+        padding: 3px;
+        background-color: black;
+        margin-bottom:23px;
+        margin-left:119px;
+        margin-right:40px;
+        margin-top:84px;
+    }
+    
+    #info{
+        width: 100%;
+        /* height: 667px; */
+        height: 1421px;
+        background-color: #10103a;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #sla{
+        
+    }
+    
+    #sla2{
+        display: flex;
+    }
+    
+    #sla3{
+        
+    }
+    
+    #sla4{
+        margin: 59px;
+    }
+    
+    .sla5{
+        width: 253px;
+        height: 248px;
+        margin-left: 108px;
+    }
+    
+    .sla6{
+        height: 203px;
+    }
+
+    .sla7{
+        width: 131px;
+    }
+
+    .assunto{
+        font-weight: bold;
+        font-size: 19px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .assunto10{
+        font-weight: bold;
+        font-size: 19px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .leitura{
+        margin-top: 22px;
+        margin-bottom: 22px;
+        color: white;
+        font-weight: bold;
+        font-size: 29px;
+        text-decoration: underline;
+    }
+    
+    .leitura1{
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    .leitura2{
+        margin-top: 40px;
+        margin-bottom: 22px;
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    
+    .leitura3{
+        margin-bottom: 10px;
+        color: white;
+        width: 706px;
+        text-align: justify;
+    }
+    
+    span{
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+    /* --------------------------------------------------------- */
+    
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 25px;
+    }
+    
+    @media (min-width: 768px) {
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0 0 35px;
+        }
+    }
+    
+    a {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        color: #42DCA3;
+    }
+    
+    a:focus,
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #mainNav {
+        font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: black;
+    }
+    
+    #mainNav .navbar-toggler {
+        font-size: 14px;
+        padding: 11px;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    #mainNav .navbar-brand {
+        font-weight: 700;
+    }
+    
+    #mainNav a {
+        color: white;
+    }
+    
+    #mainNav .navbar-nav .nav-item {
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    #mainNav .navbar-nav .nav-item:hover {
+        color: fade(white, 80%);
+        outline: none;
+        background-color: transparent;
+    }
+    
+    #mainNav .navbar-nav .nav-item:active,
+    #mainNav .navbar-nav .nav-item:focus {
+        outline: none;
+        background-color: transparent;
+    }
+    
+    @media (min-width: 992px) {
+        #mainNav {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+            -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+            transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+            letter-spacing: 1px;
+            border-bottom: none;
+            background:#10103a96;
+            height: 45px;
+        }
+        #mainNav.navbar-shrink {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            background: black;
+        }
+        #mainNav .nav-link.active {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        #mainNav .nav-link.active:hover {
+            color: white;
+        }
+    }
+    
+    .masthead {
+        display: table;
+        width: 100%;
+        height: auto;
+        padding: 200px 0;
+        text-align: center;
+        color: white;
+        background: url("../img/psdb.jpg") no-repeat bottom center scroll;
+        background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #info{
+        background: url("../img/pessoas.png") no-repeat bottom center scroll;
+        -webkit-background-size: cover;
+        background-color: #10103a;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .masthead .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+        background-color: black;
+        opacity: 0.5;
+    }
+    
+    .masthead .intro-body .brand-heading {
+        font-size: 50px;
+    }
+    
+    .masthead .intro-body .intro-text {
+        font-size: 18px;
+    }
+    
+    @media (min-width: 768px) {
+        .masthead {
+            height: 100%;
+            padding: 0;
+        }
+        .masthead .intro-body .brand-heading {
+            font-size: 100px;
+            color: white;
+        }
+        .masthead .intro-body .intro-text {
+            font-size: 22px;
+            color: white;
+        }
+    }
+    .btn-circle {
+        font-size: 26px;
+        width: 55px;
+        height: 55px;
+        margin-top: 15px;
+        line-height: 38px;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+        color: white;
+        border: 2px solid white;
+        border-radius: 100% !important;
+        background: transparent;
+    }
+    
+    .btn-circle:focus,
+    .btn-circle:hover {
+        color: white;
+        outline: none;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .content-section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
